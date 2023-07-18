@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.stopwatch{
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 24px;
+    border-radius: 10px;
+}
+.timerdisplay{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.button{
+    margin-top: 20px;
+}
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    background-color: var(--clr);
+    cursor: pointer;
+    padding: 12px 24px;
+    margin-inline: 19px;
+    border-radius: 8px;
+}
+.container h1{
+    font-size: 50px;
+    text-align:center ;
+    justify-content: center;;
+    align-items: center;
+}
+footer{
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.links .list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.fa-lg{
+    font-size: 32px;
+    line-height: .05em;
+    vertical-align: -0.075em;
+}
+a{
+    font-size: 32px;
+}
